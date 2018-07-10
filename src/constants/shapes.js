@@ -1,6 +1,8 @@
 export const CIRCLE = 'CIRCLE';
 export const OVAL = 'OVAL';
+export const EQUILATERAL_TRIANGLE = 'EQUILATERAL_TRIANGLE';
 export const ISOSCELES_TRIANGLE = 'ISOSCELES_TRIANGLE';
+export const SCALENE_TRIANGLE = 'SCALENE_TRIANGLE';
 export const PARALLELOGRAM = 'PARALLELOGRAM';
 export const SQUARE = 'SQUARE';
 export const RECTANGLE = 'RECTANGLE';

@@ -20,7 +20,7 @@ exports[`renders square component 1`] = `
   }
 >
   <RNSVGPath
-    d="M50 200 100 0 0 0z"
+    d="M0 200 100 0 200 0z"
     fill={
       Array [
         0,
