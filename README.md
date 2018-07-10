@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/pavinthan/react-native-shapes.svg?branch=master)](https://travis-ci.org/pavinthan/react-native-shapes)
+
 This project was bootstrapped with [Create React Native Root](https://github.com/react-community/create-react-native-app).
 
 Below you'll find information about performing common tasks.

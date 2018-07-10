@@ -5,7 +5,9 @@ import {
   CIRCLE,
   HEPTAGON,
   HEXAGON,
+  EQUILATERAL_TRIANGLE,
   ISOSCELES_TRIANGLE,
+  SCALENE_TRIANGLE,
   OCTAGON,
   OVAL,
   PARALLELOGRAM,
@@ -34,7 +36,7 @@ describe('circle component', () => {
   });
 });
 
-describe('circle component', () => {
+describe('oval component', () => {
   it('renders without crashing', () => {
     const rendered = renderer
       .create(
@@ -62,6 +64,34 @@ describe('circle component', () => {
   });
 });
 
+describe('equilateral triangle component', () => {
+  it('renders without crashing', () => {
+    const rendered = renderer
+      .create(
+        <Whiteboard
+          shape={EQUILATERAL_TRIANGLE}
+          measurements={['sideLength']}
+          values={[100]}
+        />
+      )
+      .toJSON();
+    expect(rendered).toBeTruthy();
+  });
+
+  it('renders component', () => {
+    const tree = renderer
+      .create(
+        <Whiteboard
+          shape={EQUILATERAL_TRIANGLE}
+          measurements={['sideLength']}
+          values={[100]}
+        />
+      )
+      .toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+});
+
 describe('isosceles triangle component', () => {
   it('renders without crashing', () => {
     const rendered = renderer
@@ -81,6 +111,34 @@ describe('isosceles triangle component', () => {
       .create(
         <Whiteboard
           shape={ISOSCELES_TRIANGLE}
+          measurements={['width', 'height']}
+          values={[100, 200]}
+        />
+      )
+      .toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+});
+
+describe('scalene triangle component', () => {
+  it('renders without crashing', () => {
+    const rendered = renderer
+      .create(
+        <Whiteboard
+          shape={SCALENE_TRIANGLE}
+          measurements={['width', 'height']}
+          values={[100, 200]}
+        />
+      )
+      .toJSON();
+    expect(rendered).toBeTruthy();
+  });
+
+  it('renders component', () => {
+    const tree = renderer
+      .create(
+        <Whiteboard
+          shape={SCALENE_TRIANGLE}
           measurements={['width', 'height']}
           values={[100, 200]}
         />
@@ -286,7 +344,7 @@ describe('octagon component', () => {
   });
 });
 
-describe('invalid component', () => {
+describe('invalid', () => {
   it('renders invalid without crashing', () => {
     const rendered = renderer
       .create(<Whiteboard shape="example" measurements={[]} values={[]} />)

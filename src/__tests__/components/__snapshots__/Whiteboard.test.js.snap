@@ -86,7 +86,7 @@ exports[`circle component renders component 1`] = `
 </View>
 `;
 
-exports[`circle component renders component 2`] = `
+exports[`equilateral triangle component renders component 1`] = `
 <View
   style={
     Array [
@@ -100,76 +100,86 @@ exports[`circle component renders component 2`] = `
   }
   virtual={undefined}
 >
-  <RNSVGSvgView
-    bbHeight="200"
-    bbWidth="400"
+  <View
     style={
       Array [
+        Object {},
         Object {
-          "backgroundColor": "transparent",
-        },
-        undefined,
-        false,
-        Object {
-          "flex": 0,
-          "height": 200,
-          "width": 400,
+          "alignItems": "center",
+          "flex": 1,
+          "justifyContent": "center",
         },
       ]
     }
+    virtual={undefined}
   >
-    <RNSVGEllipse
-      cx="200"
-      cy="100"
-      fill={
+    <Text
+      accessible={true}
+      allowFontScaling={false}
+      ellipsizeMode="tail"
+      style={
         Array [
-          0,
-          0,
-          0,
-          0,
-          1,
+          Object {
+            "color": undefined,
+            "fontSize": 12,
+          },
+          Array [
+            Object {
+              "color": "#000",
+              "fontSize": 30,
+            },
+            Object {
+              "color": "#000",
+              "fontSize": 30,
+            },
+            Object {
+              "fontSize": 33,
+              "marginBottom": 10,
+            },
+            Object {
+              "color": "#000",
+            },
+          ],
+          Object {
+            "fontFamily": "FontAwesome",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
         ]
       }
-      fillOpacity={1}
-      fillRule={1}
-      matrix={
+      type="FontAwesome"
+      virtual={undefined}
+    >
+      
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      numberOfLines={1}
+      style={
         Array [
-          1,
-          0,
-          0,
-          1,
-          0,
-          0,
+          Object {
+            "color": "#000",
+            "fontFamily": "System",
+            "fontSize": 17,
+            "fontWeight": "700",
+            "marginLeft": undefined,
+            "paddingLeft": 4,
+            "paddingTop": 1,
+            "textAlign": "center",
+          },
+          undefined,
+          Object {
+            "color": "#000",
+          },
         ]
       }
-      onLayout={undefined}
-      opacity={1}
-      originX={0}
-      originY={0}
-      propList={
-        Array [
-          "fill",
-        ]
-      }
-      rotation={0}
-      rx="100"
-      ry="50"
-      scaleX={1}
-      scaleY={1}
-      skewX={0}
-      skewY={0}
-      stroke={null}
-      strokeDasharray={null}
-      strokeDashoffset={null}
-      strokeLinecap={0}
-      strokeLinejoin={0}
-      strokeMiterlimit={4}
-      strokeOpacity={1}
-      strokeWidth="1"
-      x={0}
-      y={0}
-    />
-  </RNSVGSvgView>
+      virtual={undefined}
+    >
+      Invalid Shape
+    </Text>
+  </View>
 </View>
 `;
 
@@ -368,7 +378,7 @@ exports[`hexagon component renders component 1`] = `
 </View>
 `;
 
-exports[`invalid component renders whiteboard invalid component 1`] = `
+exports[`invalid renders whiteboard invalid component 1`] = `
 <View
   style={
     Array [
@@ -498,7 +508,7 @@ exports[`isosceles triangle component renders component 1`] = `
     }
   >
     <RNSVGPath
-      d="M0 0 0 100 100 0z"
+      d="M50 200 100 0 0 0z"
       fill={
         Array [
           0,
@@ -648,6 +658,93 @@ exports[`octagon component renders component 1`] = `
       />
     </ARTGroup>
   </ARTSurfaceView>
+</View>
+`;
+
+exports[`oval component renders component 1`] = `
+<View
+  style={
+    Array [
+      Object {},
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      },
+    ]
+  }
+  virtual={undefined}
+>
+  <RNSVGSvgView
+    bbHeight="200"
+    bbWidth="400"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+        },
+        undefined,
+        false,
+        Object {
+          "flex": 0,
+          "height": 200,
+          "width": 400,
+        },
+      ]
+    }
+  >
+    <RNSVGEllipse
+      cx="200"
+      cy="100"
+      fill={
+        Array [
+          0,
+          0,
+          0,
+          0,
+          1,
+        ]
+      }
+      fillOpacity={1}
+      fillRule={1}
+      matrix={
+        Array [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+        ]
+      }
+      onLayout={undefined}
+      opacity={1}
+      originX={0}
+      originY={0}
+      propList={
+        Array [
+          "fill",
+        ]
+      }
+      rotation={0}
+      rx="100"
+      ry="50"
+      scaleX={1}
+      scaleY={1}
+      skewX={0}
+      skewY={0}
+      stroke={null}
+      strokeDasharray={null}
+      strokeDashoffset={null}
+      strokeLinecap={0}
+      strokeLinejoin={0}
+      strokeMiterlimit={4}
+      strokeOpacity={1}
+      strokeWidth="1"
+      x={0}
+      y={0}
+    />
+  </RNSVGSvgView>
 </View>
 `;
 
@@ -916,6 +1013,90 @@ exports[`rectangle component renders component 1`] = `
       width="100"
       x="0"
       y="0"
+    />
+  </RNSVGSvgView>
+</View>
+`;
+
+exports[`scalene triangle component renders component 1`] = `
+<View
+  style={
+    Array [
+      Object {},
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      },
+    ]
+  }
+  virtual={undefined}
+>
+  <RNSVGSvgView
+    bbHeight="200"
+    bbWidth="100"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+        },
+        undefined,
+        false,
+        Object {
+          "flex": 0,
+          "height": 200,
+          "width": 100,
+        },
+      ]
+    }
+  >
+    <RNSVGPath
+      d="M0 200 100 0 200 0z"
+      fill={
+        Array [
+          0,
+          0,
+          0,
+          0,
+          1,
+        ]
+      }
+      fillOpacity={1}
+      fillRule={1}
+      matrix={
+        Array [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+        ]
+      }
+      onLayout={undefined}
+      opacity={1}
+      originX={0}
+      originY={0}
+      propList={
+        Array [
+          "fill",
+        ]
+      }
+      rotation={0}
+      scaleX={1}
+      scaleY={1}
+      skewX={0}
+      skewY={0}
+      stroke={null}
+      strokeDasharray={null}
+      strokeDashoffset={null}
+      strokeLinecap={0}
+      strokeLinejoin={0}
+      strokeMiterlimit={4}
+      strokeOpacity={1}
+      strokeWidth="1"
+      x={0}
+      y={0}
     />
   </RNSVGSvgView>
 </View>

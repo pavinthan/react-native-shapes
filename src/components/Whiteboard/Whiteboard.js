@@ -9,12 +9,15 @@ import Oval from '../Oval';
 import Parallelogram from '../Parallelogram';
 import Polygon from '../Polygon';
 import Rectangle from '../Rectangle';
+import ScaleneTriangle from '../ScaleneTriangle';
 import styles from './styles';
 import {
   CIRCLE,
   HEPTAGON,
   HEXAGON,
+  EQUILATERAL_TRIANGLE,
   ISOSCELES_TRIANGLE,
+  SCALENE_TRIANGLE,
   OCTAGON,
   OVAL,
   PARALLELOGRAM,
@@ -39,9 +42,21 @@ const Whiteboard = ({ fill, measurements, shape, values }) => {
         shapeComponent = <Oval fill={fill} {...props} />;
       }
       break;
+    case EQUILATERAL_TRIANGLE:
+      if (props.length) {
+        shapeComponent = (
+          <Polygon sides={3} sideLength={props.length} fill={fill} {...props} />
+        );
+      }
+      break;
     case ISOSCELES_TRIANGLE:
       if (props.width && props.height) {
         shapeComponent = <IsoscelesTriangle fill={fill} {...props} />;
+      }
+      break;
+    case SCALENE_TRIANGLE:
+      if (props.width && props.height) {
+        shapeComponent = <ScaleneTriangle fill={fill} {...props} />;
       }
       break;
     case PARALLELOGRAM:
@@ -80,8 +95,11 @@ const Whiteboard = ({ fill, measurements, shape, values }) => {
       }
       break;
     default:
-      shapeComponent = <Invalid fill={fill} />;
       break;
+  }
+
+  if (!shapeComponent) {
+    shapeComponent = <Invalid fill={fill} />;
   }
 
   return <View style={[styles.container]}>{shapeComponent}</View>;

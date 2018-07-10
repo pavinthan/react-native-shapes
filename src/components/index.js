@@ -8,4 +8,5 @@ export { default as Oval } from './Oval';
 export { default as Parallelogram } from './Parallelogram';
 export { default as Polygon } from './Polygon';
 export { default as Rectangle } from './Rectangle';
+export { default as ScaleneTriangle } from './ScaleneTriangle';
 export { default as Whiteboard } from './Whiteboard';
