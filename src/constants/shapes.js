@@ -1,0 +1,10 @@
+export const CIRCLE = 'CIRCLE';
+export const OVAL = 'OVAL';
+export const ISOSCELES_TRIANGLE = 'ISOSCELES_TRIANGLE';
+export const PARALLELOGRAM = 'PARALLELOGRAM';
+export const SQUARE = 'SQUARE';
+export const RECTANGLE = 'RECTANGLE';
+export const PENTAGON = 'PENTAGON';
+export const HEXAGON = 'HEXAGON';
+export const HEPTAGON = 'HEPTAGON';
+export const OCTAGON = 'OCTAGON';

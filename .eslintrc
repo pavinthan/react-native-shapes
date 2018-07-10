@@ -1,0 +1,10 @@
+{
+  "parser": "babel-eslint",
+  "rules": {
+    "prettier/prettier": "error"
+  },
+  "plugins": [
+    "react-native",
+    "prettier"
+  ]
+}

@@ -1,0 +1,11 @@
+export { default as Circle } from './Circle';
+export { default as ColorPicker } from './ColorPicker';
+export { default as Form } from './Form';
+export { default as Header } from './Header';
+export { default as Invalid } from './Invalid';
+export { default as IsoscelesTriangle } from './IsoscelesTriangle';
+export { default as Oval } from './Oval';
+export { default as Parallelogram } from './Parallelogram';
+export { default as Polygon } from './Polygon';
+export { default as Rectangle } from './Rectangle';
+export { default as Whiteboard } from './Whiteboard';

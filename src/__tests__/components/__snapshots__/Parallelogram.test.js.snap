@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders square component 1`] = `
+<ARTSurfaceView
+  style={
+    Array [
+      undefined,
+      Object {
+        "height": 200,
+        "width": 150,
+      },
+    ]
+  }
+>
+  <ARTGroup
+    opacity={1}
+    transform={
+      Array [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+      ]
+    }
+  >
+    <ARTShape
+      d={
+        Array [
+          0,
+          50,
+          0,
+          2,
+          150,
+          0,
+          2,
+          100,
+          200,
+          2,
+          0,
+          200,
+          2,
+          50,
+          0,
+          1,
+        ]
+      }
+      fill={
+        Array [
+          0,
+          0,
+          0,
+          0,
+          1,
+        ]
+      }
+      opacity={1}
+      stroke={null}
+      strokeCap={1}
+      strokeDash={null}
+      strokeJoin={1}
+      strokeWidth={1}
+      transform={
+        Array [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+        ]
+      }
+    />
+  </ARTGroup>
+</ARTSurfaceView>
+`;

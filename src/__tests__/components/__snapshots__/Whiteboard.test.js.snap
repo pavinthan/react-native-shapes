@@ -1,0 +1,1285 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`circle component renders component 1`] = `
+<View
+  style={
+    Array [
+      Object {},
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      },
+    ]
+  }
+  virtual={undefined}
+>
+  <RNSVGSvgView
+    bbHeight="200"
+    bbWidth="200"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+        },
+        undefined,
+        false,
+        Object {
+          "flex": 0,
+          "height": 200,
+          "width": 200,
+        },
+      ]
+    }
+  >
+    <RNSVGCircle
+      cx="100"
+      cy="100"
+      fill={
+        Array [
+          0,
+          0,
+          0,
+          0,
+          1,
+        ]
+      }
+      fillOpacity={1}
+      fillRule={1}
+      matrix={
+        Array [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+        ]
+      }
+      onLayout={undefined}
+      opacity={1}
+      originX={0}
+      originY={0}
+      propList={
+        Array [
+          "fill",
+        ]
+      }
+      r="100"
+      rotation={0}
+      scaleX={1}
+      scaleY={1}
+      skewX={0}
+      skewY={0}
+      stroke={null}
+      strokeDasharray={null}
+      strokeDashoffset={null}
+      strokeLinecap={0}
+      strokeLinejoin={0}
+      strokeMiterlimit={4}
+      strokeOpacity={1}
+      strokeWidth="1"
+      x={0}
+      y={0}
+    />
+  </RNSVGSvgView>
+</View>
+`;
+
+exports[`circle component renders component 2`] = `
+<View
+  style={
+    Array [
+      Object {},
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      },
+    ]
+  }
+  virtual={undefined}
+>
+  <RNSVGSvgView
+    bbHeight="200"
+    bbWidth="400"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+        },
+        undefined,
+        false,
+        Object {
+          "flex": 0,
+          "height": 200,
+          "width": 400,
+        },
+      ]
+    }
+  >
+    <RNSVGEllipse
+      cx="200"
+      cy="100"
+      fill={
+        Array [
+          0,
+          0,
+          0,
+          0,
+          1,
+        ]
+      }
+      fillOpacity={1}
+      fillRule={1}
+      matrix={
+        Array [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+        ]
+      }
+      onLayout={undefined}
+      opacity={1}
+      originX={0}
+      originY={0}
+      propList={
+        Array [
+          "fill",
+        ]
+      }
+      rotation={0}
+      rx="100"
+      ry="50"
+      scaleX={1}
+      scaleY={1}
+      skewX={0}
+      skewY={0}
+      stroke={null}
+      strokeDasharray={null}
+      strokeDashoffset={null}
+      strokeLinecap={0}
+      strokeLinejoin={0}
+      strokeMiterlimit={4}
+      strokeOpacity={1}
+      strokeWidth="1"
+      x={0}
+      y={0}
+    />
+  </RNSVGSvgView>
+</View>
+`;
+
+exports[`heptagon component renders component 1`] = `
+<View
+  style={
+    Array [
+      Object {},
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      },
+    ]
+  }
+  virtual={undefined}
+>
+  <ARTSurfaceView
+    style={
+      Array [
+        undefined,
+        Object {
+          "height": 300,
+          "width": 300,
+        },
+      ]
+    }
+  >
+    <ARTGroup
+      opacity={1}
+      transform={
+        Array [
+          1,
+          0,
+          0,
+          1,
+          100,
+          33.333333333333336,
+        ]
+      }
+    >
+      <ARTShape
+        d={
+          Array [
+            0,
+            100,
+            0,
+            2,
+            162.34898018587336,
+            78.18314824680299,
+            2,
+            140.0968867902419,
+            175.67593946498533,
+            2,
+            50,
+            219.06431337674115,
+            2,
+            -40.09688679024191,
+            175.67593946498536,
+            2,
+            -62.34898018587337,
+            78.183148246803,
+            2,
+            -3.552713678800501e-14,
+            1.4210854715202004e-14,
+            2,
+            99.99999999999997,
+            -1.028208126774506e-14,
+            1,
+          ]
+        }
+        fill={
+          Array [
+            0,
+            0,
+            0,
+            0,
+            1,
+          ]
+        }
+        opacity={1}
+        stroke={null}
+        strokeCap={1}
+        strokeDash={null}
+        strokeJoin={1}
+        strokeWidth={1}
+        transform={
+          Array [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+          ]
+        }
+      />
+    </ARTGroup>
+  </ARTSurfaceView>
+</View>
+`;
+
+exports[`hexagon component renders component 1`] = `
+<View
+  style={
+    Array [
+      Object {},
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      },
+    ]
+  }
+  virtual={undefined}
+>
+  <ARTSurfaceView
+    style={
+      Array [
+        undefined,
+        Object {
+          "height": 300,
+          "width": 300,
+        },
+      ]
+    }
+  >
+    <ARTGroup
+      opacity={1}
+      transform={
+        Array [
+          1,
+          0,
+          0,
+          1,
+          100,
+          33.333333333333336,
+        ]
+      }
+    >
+      <ARTShape
+        d={
+          Array [
+            0,
+            100,
+            0,
+            2,
+            150,
+            86.60254037844386,
+            2,
+            100.00000000000003,
+            173.20508075688775,
+            2,
+            2.842170943040401e-14,
+            173.20508075688775,
+            2,
+            -50.000000000000014,
+            86.6025403784439,
+            2,
+            0,
+            4.263256414560601e-14,
+            2,
+            100,
+            1.8139628162658947e-14,
+            1,
+          ]
+        }
+        fill={
+          Array [
+            0,
+            0,
+            0,
+            0,
+            1,
+          ]
+        }
+        opacity={1}
+        stroke={null}
+        strokeCap={1}
+        strokeDash={null}
+        strokeJoin={1}
+        strokeWidth={1}
+        transform={
+          Array [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+          ]
+        }
+      />
+    </ARTGroup>
+  </ARTSurfaceView>
+</View>
+`;
+
+exports[`invalid component renders whiteboard invalid component 1`] = `
+<View
+  style={
+    Array [
+      Object {},
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      },
+    ]
+  }
+  virtual={undefined}
+>
+  <View
+    style={
+      Array [
+        Object {},
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "justifyContent": "center",
+        },
+      ]
+    }
+    virtual={undefined}
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={false}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 12,
+          },
+          Array [
+            Object {
+              "color": "#000",
+              "fontSize": 30,
+            },
+            Object {
+              "color": "#000",
+              "fontSize": 30,
+            },
+            Object {
+              "fontSize": 33,
+              "marginBottom": 10,
+            },
+            Object {
+              "color": "#000",
+            },
+          ],
+          Object {
+            "fontFamily": "FontAwesome",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+        ]
+      }
+      type="FontAwesome"
+      virtual={undefined}
+    >
+      
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      numberOfLines={1}
+      style={
+        Array [
+          Object {
+            "color": "#000",
+            "fontFamily": "System",
+            "fontSize": 17,
+            "fontWeight": "700",
+            "marginLeft": undefined,
+            "paddingLeft": 4,
+            "paddingTop": 1,
+            "textAlign": "center",
+          },
+          undefined,
+          Object {
+            "color": "#000",
+          },
+        ]
+      }
+      virtual={undefined}
+    >
+      Invalid Shape
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`isosceles triangle component renders component 1`] = `
+<View
+  style={
+    Array [
+      Object {},
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      },
+    ]
+  }
+  virtual={undefined}
+>
+  <RNSVGSvgView
+    bbHeight="200"
+    bbWidth="100"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+        },
+        undefined,
+        false,
+        Object {
+          "flex": 0,
+          "height": 200,
+          "width": 100,
+        },
+      ]
+    }
+  >
+    <RNSVGPath
+      d="M0 0 0 100 100 0z"
+      fill={
+        Array [
+          0,
+          0,
+          0,
+          0,
+          1,
+        ]
+      }
+      fillOpacity={1}
+      fillRule={1}
+      matrix={
+        Array [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+        ]
+      }
+      onLayout={undefined}
+      opacity={1}
+      originX={0}
+      originY={0}
+      propList={
+        Array [
+          "fill",
+        ]
+      }
+      rotation={0}
+      scaleX={1}
+      scaleY={1}
+      skewX={0}
+      skewY={0}
+      stroke={null}
+      strokeDasharray={null}
+      strokeDashoffset={null}
+      strokeLinecap={0}
+      strokeLinejoin={0}
+      strokeMiterlimit={4}
+      strokeOpacity={1}
+      strokeWidth="1"
+      x={0}
+      y={0}
+    />
+  </RNSVGSvgView>
+</View>
+`;
+
+exports[`octagon component renders component 1`] = `
+<View
+  style={
+    Array [
+      Object {},
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      },
+    ]
+  }
+  virtual={undefined}
+>
+  <ARTSurfaceView
+    style={
+      Array [
+        undefined,
+        Object {
+          "height": 300,
+          "width": 300,
+        },
+      ]
+    }
+  >
+    <ARTGroup
+      opacity={1}
+      transform={
+        Array [
+          1,
+          0,
+          0,
+          1,
+          100,
+          33.333333333333336,
+        ]
+      }
+    >
+      <ARTShape
+        d={
+          Array [
+            0,
+            100,
+            0,
+            2,
+            170.71067811865476,
+            70.71067811865474,
+            2,
+            170.71067811865476,
+            170.71067811865476,
+            2,
+            100.00000000000001,
+            241.4213562373095,
+            2,
+            1.4210854715202004e-14,
+            241.4213562373095,
+            2,
+            -70.71067811865476,
+            170.71067811865476,
+            2,
+            -70.71067811865477,
+            70.71067811865476,
+            2,
+            -2.842170943040401e-14,
+            -1.4210854715202004e-14,
+            2,
+            99.99999999999997,
+            -3.870379069814907e-14,
+            1,
+          ]
+        }
+        fill={
+          Array [
+            0,
+            0,
+            0,
+            0,
+            1,
+          ]
+        }
+        opacity={1}
+        stroke={null}
+        strokeCap={1}
+        strokeDash={null}
+        strokeJoin={1}
+        strokeWidth={1}
+        transform={
+          Array [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+          ]
+        }
+      />
+    </ARTGroup>
+  </ARTSurfaceView>
+</View>
+`;
+
+exports[`parallelogram component renders component 1`] = `
+<View
+  style={
+    Array [
+      Object {},
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      },
+    ]
+  }
+  virtual={undefined}
+>
+  <ARTSurfaceView
+    style={
+      Array [
+        undefined,
+        Object {
+          "height": 200,
+          "width": 150,
+        },
+      ]
+    }
+  >
+    <ARTGroup
+      opacity={1}
+      transform={
+        Array [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+        ]
+      }
+    >
+      <ARTShape
+        d={
+          Array [
+            0,
+            50,
+            0,
+            2,
+            150,
+            0,
+            2,
+            100,
+            200,
+            2,
+            0,
+            200,
+            2,
+            50,
+            0,
+            1,
+          ]
+        }
+        fill={
+          Array [
+            0,
+            0,
+            0,
+            0,
+            1,
+          ]
+        }
+        opacity={1}
+        stroke={null}
+        strokeCap={1}
+        strokeDash={null}
+        strokeJoin={1}
+        strokeWidth={1}
+        transform={
+          Array [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+          ]
+        }
+      />
+    </ARTGroup>
+  </ARTSurfaceView>
+</View>
+`;
+
+exports[`pentagon component renders component 1`] = `
+<View
+  style={
+    Array [
+      Object {},
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      },
+    ]
+  }
+  virtual={undefined}
+>
+  <ARTSurfaceView
+    style={
+      Array [
+        undefined,
+        Object {
+          "height": 300,
+          "width": 300,
+        },
+      ]
+    }
+  >
+    <ARTGroup
+      opacity={1}
+      transform={
+        Array [
+          1,
+          0,
+          0,
+          1,
+          100,
+          33.333333333333336,
+        ]
+      }
+    >
+      <ARTShape
+        d={
+          Array [
+            0,
+            100,
+            0,
+            2,
+            130.90169943749476,
+            95.10565162951535,
+            2,
+            50.00000000000003,
+            153.88417685876266,
+            2,
+            -30.901699437494713,
+            95.10565162951536,
+            2,
+            1.0658141036401503e-14,
+            0,
+            2,
+            100.00000000000001,
+            -2.4492935982947064e-14,
+            1,
+          ]
+        }
+        fill={
+          Array [
+            0,
+            0,
+            0,
+            0,
+            1,
+          ]
+        }
+        opacity={1}
+        stroke={null}
+        strokeCap={1}
+        strokeDash={null}
+        strokeJoin={1}
+        strokeWidth={1}
+        transform={
+          Array [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+          ]
+        }
+      />
+    </ARTGroup>
+  </ARTSurfaceView>
+</View>
+`;
+
+exports[`rectangle component renders component 1`] = `
+<View
+  style={
+    Array [
+      Object {},
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      },
+    ]
+  }
+  virtual={undefined}
+>
+  <RNSVGSvgView
+    bbHeight="200"
+    bbWidth="100"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+        },
+        undefined,
+        false,
+        Object {
+          "flex": 0,
+          "height": 200,
+          "width": 100,
+        },
+      ]
+    }
+  >
+    <RNSVGRect
+      fill={
+        Array [
+          0,
+          0,
+          0,
+          0,
+          1,
+        ]
+      }
+      fillOpacity={1}
+      fillRule={1}
+      height="200"
+      matrix={
+        Array [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+        ]
+      }
+      onLayout={undefined}
+      opacity={1}
+      originX={0}
+      originY={0}
+      propList={
+        Array [
+          "fill",
+        ]
+      }
+      rotation={0}
+      rx="0"
+      ry="0"
+      scaleX={1}
+      scaleY={1}
+      skewX={0}
+      skewY={0}
+      stroke={null}
+      strokeDasharray={null}
+      strokeDashoffset={null}
+      strokeLinecap={0}
+      strokeLinejoin={0}
+      strokeMiterlimit={4}
+      strokeOpacity={1}
+      strokeWidth="1"
+      width="100"
+      x="0"
+      y="0"
+    />
+  </RNSVGSvgView>
+</View>
+`;
+
+exports[`renders whiteboard circle component 1`] = `
+<View
+  style={
+    Array [
+      Object {},
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      },
+    ]
+  }
+  virtual={undefined}
+>
+  <RNSVGSvgView
+    bbHeight="200"
+    bbWidth="200"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+        },
+        undefined,
+        false,
+        Object {
+          "flex": 0,
+          "height": 200,
+          "width": 200,
+        },
+      ]
+    }
+  >
+    <RNSVGCircle
+      cx="100"
+      cy="100"
+      fill={
+        Array [
+          0,
+          0,
+          0,
+          0,
+          1,
+        ]
+      }
+      fillOpacity={1}
+      fillRule={1}
+      matrix={
+        Array [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+        ]
+      }
+      onLayout={undefined}
+      opacity={1}
+      originX={0}
+      originY={0}
+      propList={
+        Array [
+          "fill",
+        ]
+      }
+      r="100"
+      rotation={0}
+      scaleX={1}
+      scaleY={1}
+      skewX={0}
+      skewY={0}
+      stroke={null}
+      strokeDasharray={null}
+      strokeDashoffset={null}
+      strokeLinecap={0}
+      strokeLinejoin={0}
+      strokeMiterlimit={4}
+      strokeOpacity={1}
+      strokeWidth="1"
+      x={0}
+      y={0}
+    />
+  </RNSVGSvgView>
+</View>
+`;
+
+exports[`renders whiteboard invalid component 1`] = `
+<View
+  style={
+    Array [
+      Object {},
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      },
+    ]
+  }
+  virtual={undefined}
+>
+  <View
+    style={
+      Array [
+        Object {},
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "justifyContent": "center",
+        },
+      ]
+    }
+    virtual={undefined}
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={false}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 12,
+          },
+          Array [
+            Object {
+              "color": "#000",
+              "fontSize": 30,
+            },
+            Object {
+              "color": "#000",
+              "fontSize": 30,
+            },
+            Object {
+              "fontSize": 33,
+              "marginBottom": 10,
+            },
+            Object {
+              "color": "#000",
+            },
+          ],
+          Object {
+            "fontFamily": "FontAwesome",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+        ]
+      }
+      type="FontAwesome"
+      virtual={undefined}
+    >
+      
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      numberOfLines={1}
+      style={
+        Array [
+          Object {
+            "color": "#000",
+            "fontFamily": "System",
+            "fontSize": 17,
+            "fontWeight": "700",
+            "marginLeft": undefined,
+            "paddingLeft": 4,
+            "paddingTop": 1,
+            "textAlign": "center",
+          },
+          undefined,
+          Object {
+            "color": "#000",
+          },
+        ]
+      }
+      virtual={undefined}
+    >
+      Invalid Shape
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`renders whiteboard square component 1`] = `
+<View
+  style={
+    Array [
+      Object {},
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      },
+    ]
+  }
+  virtual={undefined}
+>
+  <ARTSurfaceView
+    style={
+      Array [
+        undefined,
+        Object {
+          "height": 300,
+          "width": 300,
+        },
+      ]
+    }
+  >
+    <ARTGroup
+      opacity={1}
+      transform={
+        Array [
+          1,
+          0,
+          0,
+          1,
+          100,
+          33.333333333333336,
+        ]
+      }
+    >
+      <ARTShape
+        d={
+          Array [
+            0,
+            100,
+            0,
+            2,
+            100,
+            100,
+            2,
+            0,
+            100.00000000000001,
+            2,
+            -1.8369701987210297e-14,
+            1.4210854715202004e-14,
+            2,
+            99.99999999999999,
+            -1.028208126774506e-14,
+            1,
+          ]
+        }
+        fill={
+          Array [
+            0,
+            0,
+            0,
+            0,
+            1,
+          ]
+        }
+        opacity={1}
+        stroke={null}
+        strokeCap={1}
+        strokeDash={null}
+        strokeJoin={1}
+        strokeWidth={1}
+        transform={
+          Array [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+          ]
+        }
+      />
+    </ARTGroup>
+  </ARTSurfaceView>
+</View>
+`;
+
+exports[`square component renders component 1`] = `
+<View
+  style={
+    Array [
+      Object {},
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      },
+    ]
+  }
+  virtual={undefined}
+>
+  <ARTSurfaceView
+    style={
+      Array [
+        undefined,
+        Object {
+          "height": 300,
+          "width": 300,
+        },
+      ]
+    }
+  >
+    <ARTGroup
+      opacity={1}
+      transform={
+        Array [
+          1,
+          0,
+          0,
+          1,
+          100,
+          33.333333333333336,
+        ]
+      }
+    >
+      <ARTShape
+        d={
+          Array [
+            0,
+            100,
+            0,
+            2,
+            100,
+            100,
+            2,
+            0,
+            100.00000000000001,
+            2,
+            -1.8369701987210297e-14,
+            1.4210854715202004e-14,
+            2,
+            99.99999999999999,
+            -1.028208126774506e-14,
+            1,
+          ]
+        }
+        fill={
+          Array [
+            0,
+            0,
+            0,
+            0,
+            1,
+          ]
+        }
+        opacity={1}
+        stroke={null}
+        strokeCap={1}
+        strokeDash={null}
+        strokeJoin={1}
+        strokeWidth={1}
+        transform={
+          Array [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+          ]
+        }
+      />
+    </ARTGroup>
+  </ARTSurfaceView>
+</View>
+`;
