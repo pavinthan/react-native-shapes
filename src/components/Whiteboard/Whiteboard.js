@@ -30,34 +30,54 @@ const Whiteboard = ({ fill, measurements, shape, values }) => {
 
   switch (snakeCase(shape).toUpperCase()) {
     case CIRCLE:
-      shapeComponent = <Circle fill={fill} {...props} />;
+      if (props.radius) {
+        shapeComponent = <Circle fill={fill} {...props} />;
+      }
       break;
     case OVAL:
-      shapeComponent = <Oval fill={fill} {...props} />;
+      if (props.width && props.height) {
+        shapeComponent = <Oval fill={fill} {...props} />;
+      }
       break;
     case ISOSCELES_TRIANGLE:
-      shapeComponent = <IsoscelesTriangle fill={fill} {...props} />;
+      if (props.width && props.height) {
+        shapeComponent = <IsoscelesTriangle fill={fill} {...props} />;
+      }
       break;
     case PARALLELOGRAM:
-      shapeComponent = <Parallelogram fill={fill} {...props} />;
+      if (props.width && props.height) {
+        shapeComponent = <Parallelogram fill={fill} {...props} />;
+      }
       break;
     case RECTANGLE:
-      shapeComponent = <Rectangle fill={fill} {...props} />;
+      if (props.width && props.height) {
+        shapeComponent = <Rectangle fill={fill} {...props} />;
+      }
       break;
     case SQUARE:
-      shapeComponent = <Polygon sides={4} fill={fill} {...props} />;
+      if (props.sideLength) {
+        shapeComponent = <Polygon sides={4} fill={fill} {...props} />;
+      }
       break;
     case PENTAGON:
-      shapeComponent = <Polygon sides={5} fill={fill} {...props} />;
+      if (props.sideLength) {
+        shapeComponent = <Polygon sides={5} fill={fill} {...props} />;
+      }
       break;
     case HEXAGON:
-      shapeComponent = <Polygon sides={6} fill={fill} {...props} />;
+      if (props.sideLength) {
+        shapeComponent = <Polygon sides={6} fill={fill} {...props} />;
+      }
       break;
     case HEPTAGON:
-      shapeComponent = <Polygon sides={7} fill={fill} {...props} />;
+      if (props.sideLength) {
+        shapeComponent = <Polygon sides={7} fill={fill} {...props} />;
+      }
       break;
     case OCTAGON:
-      shapeComponent = <Polygon sides={8} fill={fill} {...props} />;
+      if (props.sideLength) {
+        shapeComponent = <Polygon sides={8} fill={fill} {...props} />;
+      }
       break;
     default:
       shapeComponent = <Invalid fill={fill} />;
