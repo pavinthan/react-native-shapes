@@ -1,5 +1,6 @@
 {
-  "name": "shapes",
+  "name": "react-native-shapes",
+  "description": "Drawing geometric shapes using semi-natural language input from a user.",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
