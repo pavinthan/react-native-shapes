@@ -7,6 +7,8 @@ Drawing geometric shapes using semi-natural language input from a user.
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 Below you'll find information about performing common tasks.
 
+[https://snack.expo.io/@pavinthan/github.com-pavinthan-react-native-shapes](https://snack.expo.io/@pavinthan/github.com-pavinthan-react-native-shapes).
+
 ## Table of Contents
 
 - [Getting Started](#getting-started)

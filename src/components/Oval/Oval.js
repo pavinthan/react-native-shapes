@@ -1,5 +1,5 @@
 import React from 'react';
-import { Svg, Ellipse } from 'react-native-svg';
+import Svg, { Ellipse } from 'react-native-svg';
 
 const Oval = ({ width, height, fill }) => {
   return (
