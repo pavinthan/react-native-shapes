@@ -1,5 +1,5 @@
 import React from 'react';
-import { Svg, Circle as BasicCircle } from 'react-native-svg';
+import Svg, { Circle as BasicCircle } from 'react-native-svg';
 
 const Circle = ({ radius, fill }) => (
   <Svg height={radius * 2} width={radius * 2}>

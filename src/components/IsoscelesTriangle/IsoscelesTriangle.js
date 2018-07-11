@@ -1,5 +1,5 @@
 import React from 'react';
-import { Svg, Polygon } from 'react-native-svg';
+import Svg, { Polygon } from 'react-native-svg';
 
 const IsoscelesTriangle = ({ width, height, fill }) => (
   <Svg height={height} width={width}>

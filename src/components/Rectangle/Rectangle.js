@@ -1,5 +1,5 @@
 import React from 'react';
-import { Svg, Rect } from 'react-native-svg';
+import Svg, { Rect } from 'react-native-svg';
 
 const Rectangle = ({ width, height, fill }) => (
   <Svg height={height} width={width}>
