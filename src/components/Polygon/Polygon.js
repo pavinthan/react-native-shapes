@@ -2,11 +2,13 @@ import React from 'react';
 import { ART } from 'react-native';
 
 const Polygon = ({ sideLength, sides, ...otherProps }) => {
+  // create pointers.
   const polygon = ART.Path().move(
     sideLength * Math.cos(0),
     sideLength * Math.sin(0)
   );
 
+  // handel sides pointers.
   for (let i = 1; i <= sides; i += 1) {
     polygon.line(
       sideLength * Math.cos((i * 2 * Math.PI) / sides),

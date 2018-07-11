@@ -4,6 +4,7 @@ import { ART } from 'react-native';
 const Parallelogram = ({ width, height, ...otherProps }) => {
   const cx = width / 2;
 
+  // create pointers.
   const rectangle = ART.Path()
     .move(cx, 0)
     .lineTo(cx + width, 0)

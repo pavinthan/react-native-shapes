@@ -1,23 +1,37 @@
 import { strBetween } from './string';
 
-export const findShape = query => {
+/**
+ * Find shape from string.
+ * @param string
+ */
+export const findShape = string => {
   return (
-    strBetween(query, 'draw an', 'with') || strBetween(query, 'draw a', 'with')
+    strBetween(string, 'draw an', 'with') ||
+    strBetween(string, 'draw a', 'with')
   );
 };
 
-export const findMeasurements = query => {
+/**
+ * Find measurements from string.
+ * @param string
+ */
+export const findMeasurements = string => {
   const measurement =
-    strBetween(query, 'with an', 'of') || strBetween(query, 'with a', 'of');
+    strBetween(string, 'with an', 'of') || strBetween(string, 'with a', 'of');
   if (!measurement) return '';
   return [
     measurement,
-    strBetween(query, 'and an', 'of') || strBetween(query, 'and a', 'of'),
+    strBetween(string, 'and an', 'of') || strBetween(string, 'and a', 'of'),
   ].filter(m => m);
 };
 
-export const findValues = (query, measurements) => {
+/**
+ * Find values for given measurements from string.
+ * @param string
+ * @param measurements
+ */
+export const findValues = (string, measurements) => {
   return measurements.map(measurement => {
-    return parseFloat(strBetween(query, `${measurement} of`) || 0);
+    return parseFloat(strBetween(string, `${measurement} of`) || 0);
   });
 };
