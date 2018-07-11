@@ -1,17 +1,17 @@
 /**
- * Find string between two string string.
+ * Find a string between two strings.
  * @param string
  * @param start
  * @param end
  */
 export const strBetween = (string, start, end) => {
-  // create regular expression
+  // Create the regular expression to match the string.
   const regex = new RegExp(
     `(?:${start})${end ? `(.*?)(?:${end})` : '(.*)'}`,
     'igm'
   );
-  // match in string
+  // Find the matched results
   const results = regex.exec(string.toLowerCase());
-  // return only matched word
+  // returning the result
   return (results ? results[1] || '' : '').trim();
 };

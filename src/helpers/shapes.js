@@ -1,7 +1,7 @@
 import { strBetween } from './string';
 
 /**
- * Find shape from string.
+ * Find the shape from the user's semi-natural language input.
  * @param string
  */
 export const findShape = string => {
@@ -12,7 +12,7 @@ export const findShape = string => {
 };
 
 /**
- * Find measurements from string.
+ * Find the measurements from the user's semi-natural language input.
  * @param string
  */
 export const findMeasurements = string => {
@@ -26,7 +26,7 @@ export const findMeasurements = string => {
 };
 
 /**
- * Find values for given measurements from string.
+ * Find the values for the given measurements of the shape from the user's semi-natural language input.
  * @param string
  * @param measurements
  */
