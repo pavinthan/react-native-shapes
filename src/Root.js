@@ -3,7 +3,7 @@ import debounce from 'lodash/debounce';
 import { findShape, findMeasurements, findValues } from './helpers';
 // native base theme configs
 import commonColors from '../native-base-theme/variables/commonColor';
-// components
+// Importing required components
 import { Container, Content } from 'native-base';
 import { Col, Row, Grid } from 'react-native-easy-grid';
 import { Form, ColorPicker, Header, Whiteboard } from './components';
@@ -20,7 +20,7 @@ class Root extends Component {
   };
 
   /**
-   * Handle form input changes
+   * Handle user input to process the text and draw the image
    * @param query
    */
   handleFormChanges = query => {
@@ -28,7 +28,7 @@ class Root extends Component {
   };
 
   /**
-   * Handle color changes
+   * Handle theme color changes
    * @param activeColor
    */
   handleColorChanges = activeColor => {
@@ -36,24 +36,24 @@ class Root extends Component {
   };
 
   /**
-   * Handle form submission
+   * Handle the submission of the input
    */
   handleFormSubmit = () => {
     const { query } = this.state;
 
-    // find shape from query
+    // Find the shape from input query which is submitted by the user
     const shape = findShape(query);
     if (!shape) {
       return this.updateInvalidState('Invalid shape.');
     }
 
-    // find measurements from query
+    // Find the measurements of the given shape from the input query
     const measurements = findMeasurements(query);
     if (!measurements) {
       return this.updateInvalidState('Invalid measurements');
     }
 
-    // find values from query
+    // Find the values for the given measurements of the shape from the input query
     const values = findValues(query, measurements);
     if (values.length !== measurements.length) {
       return this.updateInvalidState('Invalid values');
