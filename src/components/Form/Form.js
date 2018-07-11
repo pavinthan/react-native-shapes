@@ -17,6 +17,7 @@ const Form = ({
     <Card style={[styles.card, hasErrors && styles.invalidCard]}>
       <CardItem style={styles.cardItem}>
         <Textarea
+          style={styles.input}
           error={hasErrors}
           onChangeText={onChange}
           placeholder={placeholder}
