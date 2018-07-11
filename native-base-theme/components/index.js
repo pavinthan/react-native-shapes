@@ -1,4 +1,4 @@
-import forEach from 'lodash/forEach';
+import { forEach } from 'lodash';
 import variable from './../variables/platform';
 
 export default (variables = variable) => {
