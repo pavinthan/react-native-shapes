@@ -68,8 +68,8 @@ Draw an isosceles triangle with a height of 200 and a width of 100
 -	[x]	Equilateral Triangle 	
 -	[x]	Pentagon 
 -	[x]	Rectangle
--	[x]	Hexagon 
--	[ ]	Heptagon – (currently not available)
+-	[x]	Hexagon
+-	[x] Heptagon
 -	[x]	Octagon 
 -	[x]	Circle 
 -	[x]	Oval 
