@@ -864,6 +864,7 @@ exports[`renders app component 1`] = `
                     style={
                       Object {
                         "color": "#000",
+                        "flex": 1,
                         "fontSize": 15,
                         "height": 50,
                         "paddingLeft": 10,

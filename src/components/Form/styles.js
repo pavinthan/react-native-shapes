@@ -23,6 +23,9 @@ const styles = StyleSheet.create({
     fontSize: 14,
     color: variables.brandDanger,
   },
+  input: {
+    flex: 1,
+  },
 });
 
 export default styles;
