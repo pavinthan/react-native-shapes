@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import debounce from 'lodash/debounce';
+import { debounce } from 'lodash';
 import { findShape, findMeasurements, findValues } from './helpers';
 // native base theme configs
 import commonColors from '../native-base-theme/variables/commonColor';

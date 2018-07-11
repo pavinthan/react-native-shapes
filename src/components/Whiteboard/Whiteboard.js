@@ -1,6 +1,5 @@
 import React from 'react';
-import snakeCase from 'lodash/snakeCase';
-import camelCase from 'lodash/camelCase';
+import { snakeCase, camelCase } from 'lodash';
 import { View } from 'native-base';
 import Circle from '../Circle';
 import Invalid from '../Invalid';
