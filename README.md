@@ -10,6 +10,7 @@ Below you'll find information about performing common tasks.
 ## Table of Contents
 
 - [Getting Started](#getting-started)
+  - [Download and Setup](#download-and-setup)
   - [Run the application](#run-the-application)
   - [Hint](#hint)
   - [Examples](#examples)
