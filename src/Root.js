@@ -20,25 +20,25 @@ class Root extends Component {
   };
 
   /**
-   * Handel form input changes
+   * Handle form input changes
    * @param query
    */
-  handelFormChanges = query => {
+  handleFormChanges = query => {
     this.setState({ query });
   };
 
   /**
-   * Handel color changes
+   * Handle color changes
    * @param activeColor
    */
-  handelColorChanges = activeColor => {
+  handleColorChanges = activeColor => {
     this.setState({ activeColor });
   };
 
   /**
-   * Handel form submission
+   * Handle form submission
    */
-  handelFormSubmit = () => {
+  handleFormSubmit = () => {
     const { query } = this.state;
 
     // find shape from query
@@ -79,7 +79,7 @@ class Root extends Component {
           <Grid>
             <Row>
               <Col>
-                <ColorPicker onSelect={this.handelColorChanges} />
+                <ColorPicker onSelect={this.handleColorChanges} />
               </Col>
             </Row>
             <Row>
@@ -88,8 +88,8 @@ class Root extends Component {
                   hasErrors={hasError}
                   message={message}
                   buttonColor={activeColor}
-                  onChange={debounce(this.handelFormChanges, 300)}
-                  onSubmit={this.handelFormSubmit}
+                  onChange={debounce(this.handleFormChanges, 300)}
+                  onSubmit={this.handleFormSubmit}
                 />
               </Col>
             </Row>
