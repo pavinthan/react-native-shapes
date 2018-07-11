@@ -8,7 +8,7 @@ const Polygon = ({ sideLength, sides, ...otherProps }) => {
     sideLength * Math.sin(0)
   );
 
-  // handel sides pointers.
+  // handle sides pointers.
   for (let i = 1; i <= sides; i += 1) {
     polygon.line(
       sideLength * Math.cos((i * 2 * Math.PI) / sides),
